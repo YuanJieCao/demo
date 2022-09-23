@@ -5,6 +5,8 @@
     <router-link to="/about">About</router-link>
     |
     <router-link to="/todo">TODOLIST</router-link>
+    |
+    <router-link to="/guiTest">GUI_____TEST</router-link>
   </nav>
   <router-view/>
 </template>
@@ -19,6 +21,7 @@
 }
 
 nav {
+  width: 100%;
   padding: 30px;
 }
 

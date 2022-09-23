@@ -180,7 +180,8 @@ function removeCompleted() {
 </script>
 
 <style scoped lang="scss">
-#view +label{
+#view + label {
+  width: 300px;
   overflow-wrap: break-word;
 }
 
@@ -261,6 +262,7 @@ function removeCompleted() {
 li {
   position: relative;
   list-style: none;
+
   label {
     word-break: break-all;
     padding: 15px 15px 15px 60px;
@@ -270,6 +272,7 @@ li {
     font-weight: 400;
     color: #484848;
   }
+
   //.edit {
   //  display: none;
   //}

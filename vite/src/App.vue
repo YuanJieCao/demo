@@ -9,10 +9,7 @@
     <router-link to="/guiTest">GUI_____TEST</router-link>
   </nav>
   <router-view/>
-  <h1>
-    123
-  </h1>
-  <h3>456</h3>
+
 </template>
 
 <style>

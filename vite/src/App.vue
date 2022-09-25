@@ -8,27 +8,32 @@
     |
     <router-link to="/guiTest">GUI_____TEST</router-link>
   </nav>
+
   <router-view/>
-
 </template>
-
 <style>
 #app {
+
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /*-webkit-font-smoothing: antialiased;*/
+  /*-moz-osx-font-smoothing: grayscale;*/
   text-align: center;
   color: #2c3e50;
+  display: flex;
+  flex-direction: column;
 }
 
 nav {
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
   padding: 30px;
 }
 
 nav a {
   font-weight: bold;
   color: #2c3e50;
+  padding: 0 50px;
 }
 
 nav a.router-link-exact-active {

@@ -1,4 +1,5 @@
 <template>
+  <!--  文本-->
   <text :x="point.x" :y="point.y">{{ stat.label }}</text>
 </template>
 

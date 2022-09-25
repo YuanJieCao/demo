@@ -4,6 +4,10 @@
     <list default="true" id="5a49d131-0985-45c4-91ca-cb6cd30f3702" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vite/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite/src/components/AxisLabel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vite/src/components/AxisLabel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite/src/components/PolyGraph.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vite/src/components/PolyGraph.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite/src/views/AboutView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vite/src/views/AboutView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="mbt4ia2z" />

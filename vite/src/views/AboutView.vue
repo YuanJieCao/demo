@@ -1,5 +1,6 @@
 <template>
   <!--  一块画布-->
+  <div class="main">
   <svg width="200" height="200">
     <PolyGraph :stats="stats"></PolyGraph>
   </svg>
@@ -8,7 +9,7 @@
     <label for="svg">{{ stat.label }}</label>
     <input id="svg" type="range" v-model="stat.value" min="0" max="100">
     <span>{{ stat.value }}</span>
-    <button @click="remove(stat)">删除</button>
+    <button  @click="remove(stat)">X</button>
   </div>
   <form id="add">
     <input name="newlabel" v-model="newLabel">
@@ -16,6 +17,7 @@
   </form>
 
   <pre id="raw">{{ stats }}</pre>
+  </div>
 </template>
 <script setup lang="ts">
 import PolyGraph from "../components/PolyGraph.vue"
@@ -42,7 +44,8 @@ const stats = reactive(
       {label: 'F', value: 100}
     ]
 )
-const remove = (stats) => {
+
+const remove = (stat) => {
   if (stats.length > 3) {
     stats.splice(stats.indexOf(stat), 1)
   } else {
@@ -51,7 +54,15 @@ const remove = (stats) => {
 }
 
 </script>
-<style lang="scss">
+<style lang="scss"  >
+
+.main{
+  position: relative;
+  button{
+    background-color: transparent;
+    border: 0;
+  }
+}
 polygon {
   fill: #42b983;
   opacity: 0.75;
